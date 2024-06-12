@@ -25,6 +25,6 @@
     Private Sub cmdEjecutar_Click(sender As Object, e As EventArgs) Handles cmdEjecutar.Click
         lblMostrarMa.Text = "el mayor es " & mayor
         lblMostrarMe.Text = "el menor es " & menor
-        lblMostrarSum.Text = "la suma de los numeros es " & suma
+        lblMostrarSum.Text = "la suma de los numeros es " & suma & "esto es para probar el commit"
     End Sub
 End Class
